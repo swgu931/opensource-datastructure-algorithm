@@ -13,8 +13,8 @@ ENV SOURCE_DIR=source \
     USER=oda
     
 # Download opensource for data structure and algorithm
-#RUN git clone https://github.com/swgu931/opensource-datastructure-algorithm
+# RUN git clone https://github.com/swgu931/opensource-datastructure-algorithm
 COPY ./ /home/$USER/$SOURCE_DIR
 
 # Entrypoint
-ENTRYPOINT ["bin/bash", "-c", "echo 'Welcome to the Environment for Algorithm : made by SW' "]
+# ENTRYPOINT ["bin/bash", "-c", "echo 'Welcome to the Environment for Algorithm : made by SW' "]
