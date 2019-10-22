@@ -6,7 +6,7 @@ LABEL maintainer "SW"
 
 # Install for ctag, make, gcc, git
 RUN apt-get -y update
-RUN apt-get -y install ctags make gcc vim
+RUN apt-get -y install apt-utils ctags make gcc vim
 
 # Configuration
 ENV SOURCE_DIR=source \
